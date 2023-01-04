@@ -27,9 +27,9 @@ inputs:
   sync-labels:
     description: 'Remove labels from issue if regex does not match'
     required: false
-    default: 1
+    default: "1"
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'lib/main.js'
 branding:
   icon: 'activity'
